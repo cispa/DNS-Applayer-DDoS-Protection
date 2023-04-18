@@ -1,6 +1,6 @@
 # Anomaly-based Filtering of Application-Layer DDoS Against DNS Authoritatives
 
-This README accompanies the paper "Anomaly-based Filtering of Application-Layer DDoS Against DNS Authoritatives".
+This README accompanies the IEEE EuroS&P '23 paper ["Anomaly-based Filtering of Application-Layer DDoS Against DNS Authoritatives"](https://publications.cispa.saarland/3925/1/dns-applayer-ddos-protection.pdf).
 We publish the code to help reproducibility.
 We cannot disclose the raw DNS query data, due to the sensitive nature of DNS name lookups and the national data protection laws.
 Data sets to model different attackers based on the Mirai, Sality, and Open Resolver populations are available under [Data Sources](#data-sources).
@@ -37,14 +37,7 @@ You can use this Bibtex entry, use the [CITATION.cff](./CITATION.cff) file, or u
     booktitle = {8th IEEE European Symposium on Security and Privacy},
     title     = {{Anomaly-based Filtering of Application-Layer DDoS Against DNS Authoritatives}},
     url       = {https://publications.cispa.saarland/id/eprint/3925},
-    publisher = {{IEEE}},
-    abstract  = {Authoritative DNS infrastructures are at the core of the Internet ecosystem.
-                 But how resilient are typical authoritative DNS name servers against application-layer Denial-of-Service attacks?
-                 In this paper, with the help of a large country-code TLD operator, we assess the expected attack load and DoS countermeasures.
-                 We find that standard botnets or even single-homed attackers can overload the computational resources of authoritative name servers--even if redundancy such as anycast is in place.
-                 To prevent the resulting devastating DNS outages, we assess how effective upstream filters can be as a last resort.
-                 We propose an anomaly detection defense that allows both, well-behaving high-volume DNS resolvers as well as low-volume clients to continue name lookups---while blocking most of the attack traffic.
-                 Upstream ISPs or IXPs can deploy our scheme and drop attack traffic to reasonable query loads at or below 100k queries per second at a false positive rate of 1.2\% to 5.7\% (median 2.4\%).},
+    publisher = {{IEEE}}
 }
 ```
 
